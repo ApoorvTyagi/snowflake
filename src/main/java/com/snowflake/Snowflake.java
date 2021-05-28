@@ -6,13 +6,9 @@ import java.time.Instant;
 import java.util.Enumeration;
 import java.util.Objects;
 
-/**
- * Inspired by Twitter snowflake: https://github.com/twitter/snowflake/tree/snowflake-2010
- *
- * Make sure that you create and reuse a Single instance of Snowflake per node in your distributed system cluster
- */
+
 public class Snowflake {
-    private static final int UNUSED_BITS = 1; // Sign bit, Unused (always set to 0)
+    private static final int UNUSED_BITS = 1; // Sign bit
     private static final int EPOCH_BITS = 20;
     private static final int NODE_ID_BITS = 5;
     private static final int SEQUENCE_BITS = 6;
