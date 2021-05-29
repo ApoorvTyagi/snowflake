@@ -1,11 +1,9 @@
 # snowflake
 Generate unique IDs in a Large scale Distributed environment
 
-## How it works? 💡
+## How it works?
 
-Let’s now understand its working with an example -
-
-Let’s say it’s Sun, 23 May 2021 00:00:00 GMT right now. The epoch timestamp for this particular time is 1621728000.
+Let’s say it’s Sun, 23 May 2021 00:00:00 GMT right now. The epoch timestamp for this particular time is **1621728000**
 
 First of all, we adjust our timestamp with respect to the custom epoch-
 
